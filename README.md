@@ -7,55 +7,51 @@
 
 This project presents a **data-driven algorithmic trading system** that generates real-time buy/sell signals using **RSI (Relative Strength Index)** and **Moving Average (MA) strategies**, integrated with **Telegram alerts** for instant notifications.
 
-In addition to real-time signal generation, the system includes a **backtesting engine** to evaluate strategy performance on historical data and visualize trading decisions.
+The system also includes a **backtesting engine** to evaluate trading performance on historical data and **visualization tools** to analyze trading behavior.
 
 ---
 
 ## 💡 Key Highlights
 
 - ⚡ Real-time trading signal generation  
-- 📩 Automated Telegram alerts for buy/sell signals  
+- 📩 Automated Telegram alerts  
 - 📊 Backtesting engine for performance evaluation  
-- 📈 Visualization of price trends and trading signals  
-- 🧠 Data-driven strategy using technical indicators  
+- 📈 Visualization of trading signals and trends  
+- 🧠 Data-driven decision-making using technical indicators  
 
 ---
 
 ## 🎯 Problem Statement
 
-Manual trading based on intuition or delayed analysis can lead to:
+Manual trading often suffers from:
 
-- Missed opportunities  
 - Emotional decision-making  
+- Delayed reactions to market changes  
 - Lack of systematic evaluation  
 
-👉 This system solves these issues using **rule-based, data-driven trading strategies with automation and evaluation**
+👉 This system provides a **rule-based, automated, and data-driven solution** to improve trading consistency.
 
 ---
 
 ## 🧠 Strategy Logic
 
-The trading strategy combines **RSI and Moving Average signals**:
+The trading strategy combines RSI and Moving Averages:
 
 - 📉 **RSI < 30** → Oversold → Buy signal  
 - 📈 **RSI > 70** → Overbought → Sell signal  
 - 🔁 Moving Average crossover confirms trend direction  
 
-👉 This hybrid approach improves signal reliability compared to single-indicator strategies.
+👉 Combining indicators improves reliability compared to standalone signals.
 
 ---
 
 ## ⚙️ System Architecture
-com/your-username/algo-trading-rsi-ma-telegram.git
-   cd algo-trading-rsi-ma-telegram
 
 ---
 
 ## 📊 Backtesting Results
 
-*(Add your actual results here)*
-
-Example:
+*(Replace with your actual results)*
 
 - 📈 Total Return: **+12.5%**  
 - 🎯 Win Rate: **62%**  
@@ -69,15 +65,19 @@ Example:
 
 *(Add charts/screenshots here — very important)*
 
-The system visualizes:
+The system provides:
 
-- Price trends  
-- Buy/Sell signals  
-- Moving averages  
-
-Example:
-- 📊 Price chart with signal markers  
+- 📊 Price chart with buy/sell signals  
 - 📉 RSI indicator graph  
+- 📈 Moving average trends  
+
+👉 These visualizations help analyze trading decisions and system behavior.
+
+---
+
+## 📩 Sample Alerts
+
+👉 Real-time alerts enable quick decision-making.
 
 ---
 
@@ -92,18 +92,54 @@ Example:
 
 ## ⚙️ How It Works
 
-1. Fetch stock market data  
-2. Compute RSI and Moving Averages  
-3. Generate buy/sell signals  
-4. Send real-time alerts via Telegram  
+1. Fetch market data  
+2. Calculate RSI and Moving Averages  
+3. Generate trading signals  
+4. Send alerts via Telegram  
 5. Evaluate performance using backtesting  
 
 ---
 
-## ⚙️ Installation & Setup
+## 🚧 Challenges Faced
 
-```bash
-git clone https://github.com/Janicebenita/Data-Driven-Real-Time-Stock-Trading-Signal-System-with-RSI-MA-Strategy-and-Telegram-Alerts.git
-cd Data-Driven-Real-Time-Stock-Trading-Signal-System-with-RSI-MA-Strategy-and-Telegram-Alerts
-pip install -r requirements.txt
-python main.py
+- Handling noisy and volatile financial data  
+- Reducing false trading signals  
+- Selecting optimal indicator thresholds  
+- Ensuring reliable real-time alert delivery  
+
+---
+
+## ⚠️ Limitations
+
+- Performance may degrade in sideways markets  
+- Sensitive to parameter tuning  
+- Does not consider macroeconomic/news factors  
+- Purely rule-based (no ML adaptation yet)  
+
+---
+
+## 🔮 Future Improvements
+
+- 🤖 Integrate ML-based prediction models  
+- 📊 Advanced metrics (Sharpe ratio, drawdown)  
+- 🌐 Web dashboard for live monitoring  
+- ⚡ Real-time API integration for live trading  
+
+---
+
+## 🌟 Why This Project Stands Out
+
+- Combines **real-time systems + data analysis**  
+- Includes **strategy validation via backtesting**  
+- Demonstrates **automation and API integration**  
+- Goes beyond basic projects into **practical trading system design**  
+
+---
+
+## 👩‍💻 Author
+
+**Janice Benita F**  
+B.Tech Information Technology  
+Machine Learning & Data Systems Enthusiast  
+
+---
