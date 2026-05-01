@@ -139,7 +139,7 @@ The system provides:
 ## 👩‍💻 Author
 
 **Janice Benita F**  
-B.Tech Information Technology  
+III year B.Tech Information Technology  
 Machine Learning & Data Systems Enthusiast  
 
 ---
