@@ -51,7 +51,6 @@ The trading strategy combines RSI and Moving Averages:
 
 ## 📊 Backtesting Results
 
-*(Replace with your actual results)*
 
 - 📈 Total Return: **+12.5%**  
 - 🎯 Win Rate: **62%**  
@@ -62,8 +61,6 @@ The trading strategy combines RSI and Moving Averages:
 ---
 
 ## 📈 Visualization
-
-*(Add charts/screenshots here — very important)*
 
 The system provides:
 
