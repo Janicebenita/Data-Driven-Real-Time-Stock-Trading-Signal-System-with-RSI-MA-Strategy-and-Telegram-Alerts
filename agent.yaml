@@ -1,0 +1,6 @@
+spec_version: "0.1.0"
+name: market-signal-reviewer
+version: "0.1.0"
+description: >-
+  Explains RSI and moving-average trading signals, summarizes backtest evidence,
+  and prepares alert context for human review without executing trades.
