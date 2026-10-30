@@ -14,6 +14,6 @@ The main limitation is that RSI and moving-average rules can generate false or d
 
 ## Implementation in This Repository
 
-`Stock_Trading_Strategy_with_ML_Telegram_Alerts.ipynb` contains the implemented data preparation, indicator calculation, signal generation, visualization, and optional alert workflow. The notebook exposes the RSI and moving-average values used for each signal so a reviewer can reproduce the decision path from the same market series and parameters.
+`Stock_Trading_Strategy_with_ML_Telegram_Alerts.ipynb` contains the exploratory data, indicator, visualization, backtest, and alert workflow. `agent.py` implements a reproducible review boundary: `_rsi` calculates 14-period RSI, and `review_signal` calculates short and long simple moving averages, abstains when observations are insufficient, returns only review-buy/review-sell/hold-review labels, retains every indicator as evidence, lists omitted market factors, and records that no trade was executed. `test_agent.py` verifies insufficient-data abstention.
 
-No brokerage execution service is implemented in the repository. Telegram output, when configured, is an alert only; it does not place a trade, guarantee performance, or replace independent financial judgment.
+No brokerage execution service is implemented. Telegram output, when configured, is an alert only and does not place a trade or guarantee performance.
