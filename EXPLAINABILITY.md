@@ -11,3 +11,9 @@ Inputs may include the selected market symbol, historical or current price serie
 ## Limits and known constraints
 
 The main limitation is that RSI and moving-average rules can generate false or delayed signals, particularly in volatile or sideways markets, and their apparent performance is sensitive to parameter choices. Historical backtesting does not guarantee future results and can be distorted by data leakage, overfitting, survivorship bias, ignored transaction costs, slippage, taxes, or incomplete data. The performance figures stated in project documentation require reproducible evidence before being treated as verified. The system does not incorporate all news, macroeconomic, liquidity, or company-specific risks and must not autonomously execute financial transactions.
+
+## Implementation in This Repository
+
+`Stock_Trading_Strategy_with_ML_Telegram_Alerts.ipynb` contains the implemented data preparation, indicator calculation, signal generation, visualization, and optional alert workflow. The notebook exposes the RSI and moving-average values used for each signal so a reviewer can reproduce the decision path from the same market series and parameters.
+
+No brokerage execution service is implemented in the repository. Telegram output, when configured, is an alert only; it does not place a trade, guarantee performance, or replace independent financial judgment.
